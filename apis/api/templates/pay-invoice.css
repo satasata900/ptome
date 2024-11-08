@@ -1,0 +1,115 @@
+body {
+    background: #13216a !important;
+    color: #FFF !important;
+}
+
+.login-form {
+    height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    height: 170px;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.site-name {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.form,
+.alert-msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background: #FFFFFF;
+    max-width: 600px;
+    padding: 45px;
+    border-radius: 10px;
+}
+
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+
+
+.alert {
+    margin-bottom: 0px !important;
+}
+
+
+.invoice {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    background: #FFFFFF;
+    max-width: 600px;
+    padding: 45px;
+    border-radius: 10px;
+}
+
+.invoice .invoice-details {
+    margin-top: 80px;
+}
+
+.invoice .invoice-details h2 {
+    color: #337ab7;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.invoice .invoice-details p {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    color: #000;
+}
+
+.pay-btn {
+    margin-top: 40px;
+}
+
+.pay-btn button {
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    outline: 0;
+    width: 60%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: 0.6s;
+    cursor: pointer;
+}

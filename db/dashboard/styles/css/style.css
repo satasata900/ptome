@@ -1,0 +1,199 @@
+.btn-main {
+  background-color: #3970E9;
+}
+
+.mdi {
+  position: relative;
+  top: 2px;
+}
+
+.auth-errors {
+  margin: 2rem 0;
+}
+
+.auth-errors .auth-error {
+  color: #fc8b8b;
+}
+
+.auth-successes {
+  margin: 2rem 0;
+}
+
+.auth-successes .auth-success {
+  color: #87fb83;
+}
+
+.sidebar .sidebar-brand-wrapper .sidebar-brand img {
+  height: auto;
+}
+
+.sidebar .sidebar-brand-wrapper .sidebar-brand.brand-logo-mini img {
+  width: 35px;
+  height: auto;
+}
+
+.forms-sample .error {
+  display: block;
+  color: #ff6c6c;
+  margin-top: 0.625rem;
+  font-size: 0.825rem;
+}
+
+.forms-sample input,
+.forms-sample select {
+  color: #d0cfcf !important;
+}
+
+.auth-form .error {
+  display: block;
+  color: #ff6c6c;
+  margin-top: 0.625rem;
+}
+
+.auth-form input {
+  color: #d0cfcf !important;
+}
+
+.search-form input {
+  color: #d0cfcf !important;
+}
+
+.auth.login-bg {
+  background-image: url(/images/bg.png?793c6d59cea8b8ff6dafec4332282305);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dropdown-item:hover {
+  color: #efefef !important;
+}
+
+.dropdown-divider {
+  margin: 0;
+}
+
+.pagination-links .page-item .page-link {
+  color: #ffffff;
+}
+
+.pagination-links .page-item.active .page-link {
+  background-color: #0e9104;
+  border-color: #0e9104;
+  box-shadow: none;
+}
+
+.pagination-links .page-item.disabled .page-link {
+  color: #0f1015;
+}
+
+.pagination-links .page-item:hover .page-link {
+  color: #0f1015;
+}
+
+.jconfirm-title-c {
+  color: #0f1015;
+}
+
+.jconfirm-content {
+  color: #0f1015;
+}
+
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(15, 16, 21, 0.75);
+  z-index: 100;
+}
+
+.loading-overlay img {
+  width: 100px;
+  margin-bottom: 1.3rem;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group input {
+  padding-right: 2rem;
+}
+
+.form-group input:lang(ar) {
+  padding-right: 0;
+  padding-left: 2rem;
+}
+
+.clear-input-btn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #ff3858;
+  cursor: pointer;
+}
+
+.clear-input-btn:hover {
+  color: #fc667e;
+}
+
+.crud-error {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.crud-error ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.sidebar .nav .nav-item.profile .profile-desc .profile-name h5 {
+  max-width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.daterangepicker .calendar-table th,
+.daterangepicker .calendar-table td {
+  color: #1e1e27;
+}
+
+.daterangepicker .calendar-table th:hover,
+.daterangepicker .calendar-table td:hover {
+  background-color: #BB3C8E;
+  color: #ffffff;
+}
+
+.daterangepicker .calendar-table th.active,
+.daterangepicker .calendar-table td.active {
+  background-color: #BB3C8E;
+  color: #ffffff;
+}
+
+.daterangepicker .applyBtn {
+  background-color: #BB3C8E;
+  color: #ffffff;
+  border-color: #BB3C8E;
+}
+
+/* Select 2 */
+
+.select2-selection {
+  background-color: #2A3038 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 4px !important;
+}
+
